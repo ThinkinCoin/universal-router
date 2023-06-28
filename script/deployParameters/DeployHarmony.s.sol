@@ -8,7 +8,7 @@ contract DeployBSC is DeployUniversalRouter {
     function setUp() public override {
         params = RouterParameters({
             permit2: 0x000000000022D473030F116dDEE9F6B43aC78BA3,
-            weth9: 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c,
+            weth9: 0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a,
             seaportV1_5: 0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC,
             seaportV1_4: 0x00000000000001ad428e4906aE43D8F9852d0dD6,
             openseaConduit: 0x1E0049783F008A0085193E00003D00cd54003c71,
@@ -24,7 +24,7 @@ contract DeployBSC is DeployUniversalRouter {
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
             v2Factory: UNSUPPORTED_PROTOCOL,
-            v3Factory: 0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7,
+            v3Factory: 0x73e20b9dD9577ad6A5acafb27d1FB88D9d7d31d5,
             pairInitCodeHash: BYTES32_ZERO,
             poolInitCodeHash: 0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54
         });
