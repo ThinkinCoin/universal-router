@@ -64,6 +64,7 @@ export default {
     },
     harmony: {
       url: process.env.HARMONY_RPC,
+    },
   },
   namedAccounts: {
     deployer: 0,
