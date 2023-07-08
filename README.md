@@ -155,6 +155,7 @@ Developer documentation to give a detailed explanation of the inputs for every c
 
 ```
 INFURA_API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+HARMONY_RPC=https://api.harmony.one
 ```
 
 2. Run yarn commands to compile and test
