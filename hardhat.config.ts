@@ -27,7 +27,7 @@ export default {
   networks: {
     hardhat: {
       allowUnlimitedContractSize: false,
-      chainId: 1666600000,
+      chainId: 1,
       forking: {
         url: process.env.HARMONY_RPC,
         blockNumber: 15360000,
