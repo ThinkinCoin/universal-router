@@ -215,7 +215,7 @@ forge script --broadcast \
 --rpc-url <RPC-URL> \
 --private-key <PRIVATE_KEY> \
 --sig 'run()' \
-script/deployParameters/Deploy<network>.s.sol:Deploy<network>
+script/deployParameters/Deploy<network>.s.sol:Deploy<network> --legacy
 ```
 
 ### To Deploy and Verify

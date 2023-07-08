@@ -62,6 +62,8 @@ export default {
     polygon: {
       url: `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
     },
+    harmony: {
+      url: process.env.HARMONY_RPC,
   },
   namedAccounts: {
     deployer: 0,
