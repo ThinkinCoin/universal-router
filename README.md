@@ -213,10 +213,10 @@ Fill out parameters in `script/deployParameters/Deploy<network>.s.sol`
 
 ```console
 forge script --broadcast \
---rpc-url <RPC-URL> \
+--rpc-url https://api.harmony.one \
 --private-key <PRIVATE_KEY> \
 --sig 'run()' \
-script/deployParameters/Deploy<network>.s.sol:Deploy<network> --legacy
+script/deployParameters/DeployHarmony.s.sol:DeployHarmony --legacy
 ```
 
 ### To Deploy and Verify
@@ -226,14 +226,14 @@ forge script --broadcast \
 --rpc-url <RPC-URL> \
 --private-key <PRIVATE-KEY> \
 --sig 'run()' \
-script/deployParameters/Deploy<network>.s.sol:Deploy<network>
+script/deployParameters/DeployHarmony.s.sol:DeployHarmony
 --etherscan-api-key <ETHERSCAN-API-KEY> \
 --verify
 ```
 
 #### To Deploy Permit2 Alongside UniversalRouter
 
-Fill out parameters in `scripts/deployParameters/<network>.json`
+Fill out parameters in `scripts/deployParameters/Harmony.json`
 
 ```console
 forge script --broadcast \
