@@ -226,7 +226,7 @@ forge script --broadcast \
 --rpc-url <RPC-URL> \
 --private-key <PRIVATE-KEY> \
 --sig 'run()' \
-script/deployParameters/DeployHarmony.s.sol:DeployHarmony
+script/deployParameters/DeployHarmony.s.sol:DeployHarmony --lrgacy \
 --etherscan-api-key <ETHERSCAN-API-KEY> \
 --verify
 ```
