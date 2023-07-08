@@ -23,6 +23,7 @@ export default {
   paths: {
     sources: './contracts',
   },
+  defaultNetwork: "harmony",
   networks: {
     hardhat: {
       allowUnlimitedContractSize: false,
