@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.4.3",
+  "version": "1.4.4",
   "keywords": [
     "uniswap",
     "router",
@@ -39,14 +39,14 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "1.0.4",
     "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@thinkincoin-libs/sdk-core": "^3.2.8",
+    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.3",
+    "@thinkincoin-libs/uniswap-v3-sdk": "^3.9.3",
     "@typechain/ethers-v5": "^4.0.0",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "@uniswap/router-sdk": "^1.3.0",
-    "@thinkincoin-libs/sdk-core": "^3.2.8",
     "@uniswap/snapshot-gas-cost": "^1.0.0",
-    "@thinkincoin-libs/uniswap-v2-sdk": "^3.0.3",
-    "@thinkincoin-libs/uniswap-v3-sdk": "^3.9.3",
     "bignumber.js": "^9.0.0",
     "chai": "^4.3.4",
     "ethers": "^5.7.2",
