@@ -29,7 +29,7 @@ export default {
       allowUnlimitedContractSize: false,
       chainId: 1,
       forking: {
-        url: process.env.HARMONY_RPC,
+        url: `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`,
         blockNumber: 15360000,
       },
     },
